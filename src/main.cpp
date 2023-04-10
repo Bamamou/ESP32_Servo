@@ -1,10 +1,12 @@
 #include <Arduino.h>
 
 /*
-  ESP32 Servo
+  ESP32 Servo is very simple simulation of an ESP32 with a Servo motor and LED plu a Buzer 
   Use LED on GPIO2
   Use Servo on GPIO2
+  The simulation can be found at: https://wokwi.com/projects/355616266856356865
 */
+/*==========================================================================================*/
 #include <ESP32Servo.h>
 #define ServoPin 2  // Define the pin position of the Servo
 Servo my_Servo;     // Create an object of the servo 
